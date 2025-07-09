@@ -29,18 +29,12 @@ function About() {
         </div>
         <div className="md:w-1/2 w-full text-left">
           <p className="text-lg text-gray-700 leading-relaxed font-sans">
-            Im currently a Junior at Iowa State University studying computer
-            science and minoring in data science. Having most experience in
-            Java, Python, and HTML/CSS, I mainly have smaller projects in both
-            solo and team settings. I enjoy learning new languages, data
-            structures, algoritms, and overall new ways to look at programming
-            problems. My coding experience started in 2022 with basic Python and
-            JavaScript which has led to the projects and amazing conections ive
-            made since. Challanges are always welcom as I will try to find the
-            best way to resolve it myself first, refine my solution, then ask
-            others for contributions as well as help others with their programs.
-            My Ideal environment would be a collaborative team where bouncing
-            ideas off of eachother is rewarded.
+            I'm a Junior at Iowa State University studying computer science and minoring in data science. Having the most experience in Java, 
+            Python, and HTML/CSS, I mainly have smaller projects in solo and team settings. I enjoy learning new languages, data structures, 
+            algorithms, and ways to look at programming problems. My coding experience started in 2022 with basic Python and JavaScript, which 
+            has led to the projects and excellent connections I've made since. Challenges are always welcome, as I will find the best way to 
+            resolve them myself first, refine my solution, then ask others for contributions and help others with their programs. My Ideal 
+            environment would be a collaborative team where bouncing ideas off each other is rewarded.
           </p>
         </div>
       </div>

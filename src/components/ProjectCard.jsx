@@ -30,7 +30,7 @@ function ProjectCard({
         </div>
       </div>
 
-      <div className="bg-white shadow-lg rounded-lg p-6 border-l-4 border-blue-500 w-full md:w-1/2 mx-auto md:mx-0">
+      <div className="bg-white shadow-lg rounded-lg p-6 border-l-4 border-blue-700 w-full md:w-1/2 mx-auto md:mx-0">
         <h4 className="text-2xl font-bold mb-3">{title}</h4>
         {date && <p className="text-sm text-gray-500 mb-2">{date}</p>}
         <p className="mb-4 text-gray-700">{description}</p>
@@ -40,7 +40,7 @@ function ProjectCard({
           {banners.map((banner, idx) => (
             <span
               key={idx}
-              className="bg-purple-200 text-purple-800 px-3 py-1 rounded-full text-sm font-medium"
+              className="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium"
             >
               {banner}
             </span>
@@ -54,7 +54,7 @@ function ProjectCard({
               href={Link}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-violet-600 hover:bg-violet-700 text-white rounded-md transition"
+              className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md transition"
             >
               {LinkDesc}
             </a>
@@ -64,7 +64,7 @@ function ProjectCard({
               href={Link2}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-violet-600 hover:bg-violet-700 text-white rounded-md transition"
+              className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md transition"
             >
               {LinkDesc2}
             </a>

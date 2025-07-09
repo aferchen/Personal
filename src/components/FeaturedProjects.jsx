@@ -9,7 +9,7 @@ export default function FeaturedProjects() {
     {
       title: "Cynance",
       description:
-        "An Android app I developed along with a team using Android Studio mainly. This app lets users track finances, chat in real time with advisors, chart goals and stock prices all in one place",
+        "An Android app I developed along with a team using Android Studio, mainly. This app lets users track finances, chat in real time with advisors, chart goals, and stock prices all in one place",
       imageSrc: Cynance,
       banners: ["Android Studio", "MySQL", "Postman", "SCRUM"],
       Link: "https://youtube.com/shorts/1oYWxJufBqE?feature=share",
@@ -21,7 +21,7 @@ export default function FeaturedProjects() {
     {
       title: "Assembly Disassembler",
       description:
-        "Given binary LEGv8 instructions encoded in big-endian byte order, then converts this input into the original assembly code that would output the binary given",
+        "Given binary LEGv8 instructions encoded in big-endian byte order, then converts this input into the original assembly code that would output the binary given.",
       imageSrc: AssemblyImg,
       banners: ["Assembly"],
       Link: "https://github.com/aferchen/Assembly-Disassembler",
@@ -31,7 +31,7 @@ export default function FeaturedProjects() {
     {
       title: "Pasta la Vista",
       description:
-        "A webpage designed for a fake italian restraunt. Features for Pasta include webpage front to back end connections with user accounts, password protection, cart details and more!",
+      "A webpage designed for a fake Italian restaurant. Features for Pasta include webpage front-to-back end connections with user accounts, password protection, cart details, and more!",
       imageSrc: Pasta,
       banners: ["React", "Mongo DB", "MySQL", "Tailwind"],
       Link: "https://github.com/aferchen/Pasta-la-Vista",
@@ -41,7 +41,7 @@ export default function FeaturedProjects() {
     {
       title: "Advent of Code",
       description:
-        "A team or solo project every day in december to help with team problem solving, programming practice, using different languages, and much more",
+        "A team or solo project every day in December to help with team problem solving, programming practice, using different languages, and much more.",
       imageSrc: Advent,
       banners: ["Java", "Python", "JavaScript"],
       Link: "https://adventofcode.com",

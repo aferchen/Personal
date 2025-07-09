@@ -52,7 +52,7 @@ function Contact() {
             href="https://www.linkedin.com/in/alec-ferchen"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 hover:text-orange-600"
+            className="flex items-center gap-2 hover:text-blue-900"
           >
             <FaLinkedin />
             <span>LinkedIn</span>
@@ -61,7 +61,7 @@ function Contact() {
             href="https://github.com/aferchen"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 hover:text-orange-600"
+            className="flex items-center gap-2 hover:text-blue-900"
           >
             <FaGithub />
             <span>GitHub</span>
@@ -70,7 +70,7 @@ function Contact() {
             href="mailto:aferchen@iastate.edu"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 hover:text-orange-600"
+            className="flex items-center gap-2 hover:text-blue-900"
           >
             <CiMail />
             <span>Email</span>

@@ -9,11 +9,9 @@ function Hero() {
         <div className="md:w-1/2 w-full text-left">
           <TypewriterEffect />
           <p className="text-xl text-gray-800 leading-relaxed font-sans">
-            I'm a computer science student with a passion for web development,
-            programming projects, and improving my skills in these areas. I
-            mainly use Java and Python to create web pages, Android apps, and
-            other useful projects. I specialize in frontend development and data
-            structures. Scroll down to see my featured work!
+            I'm a computer science student passionate about web development, programming projects, and improving my skills. 
+            I mainly use Java and Python to create web pages, Android apps, and other valuable projects. 
+            I specialize in frontend development and data structures. Scroll down to see my featured work!
           </p>
         </div>
         <div className="md:w-1/2 w-full flex justify-center">
