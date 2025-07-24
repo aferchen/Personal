@@ -3,7 +3,7 @@ import React, { useEffect, useState, useRef } from "react";
 export default function TypewriterName() {
   const nameText = "Alec Ferchen";
   const typingDelay = 200;
-  const pauseDuration = 3000;
+  const pauseDuration = 6000;
 
   const [text, setText] = useState("");
   const indexRef = useRef(0);

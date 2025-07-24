@@ -3,6 +3,7 @@ import AssemblyImg from "../assets/assembly.svg";
 import Cynance from "../assets/Cynance_Crop.png";
 import Pasta from "../assets/Pasta3.png";
 import Advent from "../assets/Advent.png";
+import Message from "../assets/messageReconstruct.png";
 
 export default function FeaturedProjects() {
   const projects = [
@@ -45,6 +46,16 @@ export default function FeaturedProjects() {
       imageSrc: Advent,
       banners: ["Java", "Python", "JavaScript"],
       Link: "https://adventofcode.com",
+      LinkDesc: "View Site",
+      date: "2023 - present",
+    },
+    {
+      title: "Message Reconstructor",
+      description:
+        "Given different encoded messages and an instruction set on decoding using binary search trees, finding the hidden messages and images in encoded strings",
+      imageSrc: Message,
+      banners: ["Java"],
+      Link: "https://github.com/aferchen/Message-Tree-Sorters",
       LinkDesc: "View Site",
       date: "2023 - 2024",
     },

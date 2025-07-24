@@ -29,12 +29,21 @@ function About() {
         </div>
         <div className="md:w-1/2 w-full text-left">
           <p className="text-lg text-gray-700 leading-relaxed font-sans">
-            I'm a Junior at Iowa State University studying computer science and minoring in data science. Having the most experience in Java, 
-            Python, and HTML/CSS, I mainly have smaller projects in solo and team settings. I enjoy learning new languages, data structures, 
-            algorithms, and ways to look at programming problems. My coding experience started in 2022 with basic Python and JavaScript, which 
-            has led to the projects and excellent connections I've made since. Challenges are always welcome, as I will find the best way to 
-            resolve them myself first, refine my solution, then ask others for contributions and help others with their programs. My Ideal 
-            environment would be a collaborative team where bouncing ideas off each other is rewarded.
+            I'm a junior at Iowa State University majoring in Computer Science
+            with a minor in Data Science. I have a lot of experience with Java,
+            Python, and HTML/CSS, and I've built a range of individual and
+            team-based projects that show my passion for problem-solving and
+            continuous learning. <br></br>
+            I began coding in 2022 with basic Python and 
+            JavaScript and have since grown through coursework, personal
+            projects, and collaborative challenges like Advent of Code. I enjoy
+            exploring new programming languages, algorithms, and data structures
+            to deepen my technical understanding. <br></br>
+            I thrive in collaborative
+            environments where ideas are shared freely, and team members support
+            each other's growth. I'm always eager to take on challenges, working
+            independently to develop and refine solutions before seeking
+            feedback or helping others in return.
           </p>
         </div>
       </div>
@@ -48,10 +57,7 @@ function About() {
         {/* Databases */}
         <div className="flex flex-wrap justify-center gap-6 mb-8">
           <div className="md:w-1/4">
-            <ExperienceSection
-              title="Databases"
-              items={skills.databases}
-            />
+            <ExperienceSection title="Databases" items={skills.databases} />
           </div>
           {/* Framework + Libraries */}
           <div className="md:w-7/12">
@@ -64,17 +70,11 @@ function About() {
         {/* Code Share */}
         <div className="flex flex-wrap justify-center gap-6">
           <div className="md:w-5/12">
-            <ExperienceSection
-              title="Code Sharing"
-              items={skills.codeShare}
-            />
+            <ExperienceSection title="Code Sharing" items={skills.codeShare} />
           </div>
           {/* Mobile */}
           <div className="md:w-5/12">
-            <ExperienceSection
-              title="Mobile"
-              items={skills.mobile}
-            />
+            <ExperienceSection title="Mobile" items={skills.mobile} />
           </div>
         </div>
       </div>
