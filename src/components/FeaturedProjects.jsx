@@ -15,7 +15,7 @@ export default function FeaturedProjects() {
     {
       title: "Cynance",
       description:
-        "An Android app I developed along with a team using Android Studio, mainly. This app lets users track finances, chat in real time with advisors, chart goals, and stock prices all in one place",
+        "An Android app I developed along with a team using Android Studio in front-end, mainly. This app lets users track finances, chat in real time with advisors, chart goals, and stock prices all in one place",
       imageSrc: Cynance,
       hoverImg: CynanceH,
       banners: ["Android Studio", "MySQL", "Postman", "SCRUM"],
@@ -28,7 +28,7 @@ export default function FeaturedProjects() {
     {
       title: "Assembly Disassembler",
       description:
-        "Given binary LEGv8 instructions encoded in big-endian byte order, then converts this input into the original assembly code that would output the binary given.",
+        "Given binary LEGv8 instructions encoded in big-endian byte order, this program then converts this input into the original assembly code that would output the binary given.",
       imageSrc: AssemblyImg,
       hoverImg: AssemblyH,
       banners: ["Assembly"],
@@ -39,18 +39,20 @@ export default function FeaturedProjects() {
     {
       title: "Pasta la Vista",
       description:
-      "A webpage designed for a fake Italian restaurant. Features for Pasta include webpage front-to-back end connections with user accounts, password protection, cart details, and more!",
+      "I created a webpage for a fake Italian restaurant which include front-to-back end connections with user accounts, password protection, cart details and more!",
       imageSrc: Pasta,
       hoverImg: PastaH,
       banners: ["React", "Mongo DB", "MySQL", "Tailwind"],
       Link: "https://github.com/aferchen/Pasta-la-Vista",
       LinkDesc: "View on Github",
+      Link2: "https://youtu.be/zxMaadEYxRY",
+      LinkDesc2: "Watch Demo",
       date: "Mar 2025",
     },
     {
       title: "Advent of Code",
       description:
-        "A team or solo project every day in December to help with team problem solving, programming practice, using different languages, and much more.",
+        "A team and solo project I took on every day in December to help with team problem solving, programming practice, using different languages, and much more.",
       imageSrc: Advent,
       hoverImg: AdventH,
       banners: ["Java", "Python", "JavaScript"],

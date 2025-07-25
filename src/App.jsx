@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import './App.css';
+import TopOfPage from "./components/TopOfPage";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         {/** Relativly unused right now */}
+        <TopOfPage />
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />

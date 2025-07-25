@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 function Contact() {
   return (
-    <section className="max-w-6xl mx-auto py-30 text-center">
+    <section className="max-w-6xl mx-auto py-30 text-center min-h-screen">
       <div className="flex items-center justify-center gap-2 text-4xl font-bold mb-4 pb-8">
         <CiMail className="text-blue-600" />
         <h2>Contact Me</h2>
