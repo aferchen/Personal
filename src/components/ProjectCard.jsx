@@ -2,6 +2,7 @@ function ProjectCard({
   title,
   description,
   imageSrc,
+  hoverImg,
   banners = [],
   Link,
   LinkDesc,
@@ -16,17 +17,34 @@ function ProjectCard({
         reverse ? "md:flex-row-reverse" : ""
       }`}
     >
-      <div className="md:w-1/3 w-full flex justify-center ">
-       <div className="p-[5px] rounded-lg" 
-       style={{
-              backgroundImage:
-                "linear-gradient(129deg,rgba(114, 152, 213, 1) 0%, rgba(161, 122, 160, 1) 56%, rgba(220, 97, 108, 1) 100%)",
-            }}>
-        <img
-          src={imageSrc}
-          alt={title}
-          className="w-full max-w-xs rounded-lg shadow-lg bg-white"
-        />
+      <div className="md:w-1/3 w-full flex justify-center group relative">
+        {/* Border */}
+        <div
+          className="relative p-[5px] rounded-lg w-full max-w-sm aspect-[4/3] overflow-visible transition-transform duration-300 group-hover:scale-130"
+          style={{
+            backgroundImage:
+              "linear-gradient(129deg,rgba(114, 152, 213, 1) 0%, rgba(161, 122, 160, 1) 56%, rgba(220, 97, 108, 1) 100%)",
+          }}
+        >
+          <div className="relative w-full h-full rounded-lg bg-white">
+            {/* Normal Image */}
+            <img
+              src={imageSrc}
+              alt={title}
+              className="w-full h-full object-contain rounded-lg transition-opacity duration-300 group-hover:opacity-0"
+            />
+
+            {/* Hover Image */}
+
+            <img
+              src={hoverImg || imageSrc}
+              alt={`${title} demo`}
+              className="absolute top-1/2 left-1/2 w-full h-full object-contain rounded-lg transition-all duration-600 ease-in-out opacity-0 group-hover:opacity-100 z-10"
+              style={{
+                transform: "translate(-50%, -50%) scale(1)",
+              }}
+            />
+          </div>
         </div>
       </div>
 
@@ -40,7 +58,7 @@ function ProjectCard({
           {banners.map((banner, idx) => (
             <span
               key={idx}
-              className="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium"
+              className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium"
             >
               {banner}
             </span>

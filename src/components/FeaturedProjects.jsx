@@ -4,6 +4,11 @@ import Cynance from "../assets/Cynance_Crop.png";
 import Pasta from "../assets/Pasta3.png";
 import Advent from "../assets/Advent.png";
 import Message from "../assets/messageReconstruct.png";
+import CynanceH from "../assets/CynanceHover.png";
+import AssemblyH from "../assets/AssemblyHover.png";
+import PastaH from "../assets/PastaHover.jpeg";
+import AdventH from "../assets/AdventHover.png";
+import MessageH from "../assets/MessageReconstructHover.png";
 
 export default function FeaturedProjects() {
   const projects = [
@@ -12,6 +17,7 @@ export default function FeaturedProjects() {
       description:
         "An Android app I developed along with a team using Android Studio, mainly. This app lets users track finances, chat in real time with advisors, chart goals, and stock prices all in one place",
       imageSrc: Cynance,
+      hoverImg: CynanceH,
       banners: ["Android Studio", "MySQL", "Postman", "SCRUM"],
       Link: "https://youtube.com/shorts/1oYWxJufBqE?feature=share",
       LinkDesc: "Watch Demo",
@@ -24,6 +30,7 @@ export default function FeaturedProjects() {
       description:
         "Given binary LEGv8 instructions encoded in big-endian byte order, then converts this input into the original assembly code that would output the binary given.",
       imageSrc: AssemblyImg,
+      hoverImg: AssemblyH,
       banners: ["Assembly"],
       Link: "https://github.com/aferchen/Assembly-Disassembler",
       LinkDesc: "View on GitHub",
@@ -34,6 +41,7 @@ export default function FeaturedProjects() {
       description:
       "A webpage designed for a fake Italian restaurant. Features for Pasta include webpage front-to-back end connections with user accounts, password protection, cart details, and more!",
       imageSrc: Pasta,
+      hoverImg: PastaH,
       banners: ["React", "Mongo DB", "MySQL", "Tailwind"],
       Link: "https://github.com/aferchen/Pasta-la-Vista",
       LinkDesc: "View on Github",
@@ -44,19 +52,21 @@ export default function FeaturedProjects() {
       description:
         "A team or solo project every day in December to help with team problem solving, programming practice, using different languages, and much more.",
       imageSrc: Advent,
+      hoverImg: AdventH,
       banners: ["Java", "Python", "JavaScript"],
       Link: "https://adventofcode.com",
       LinkDesc: "View Site",
-      date: "2023 - present",
+      date: "2023 - Present",
     },
     {
       title: "Message Reconstructor",
       description:
         "Given different encoded messages and an instruction set on decoding using binary search trees, finding the hidden messages and images in encoded strings",
       imageSrc: Message,
+      hoverImg: MessageH,
       banners: ["Java"],
       Link: "https://github.com/aferchen/Message-Tree-Sorters",
-      LinkDesc: "View Site",
+      LinkDesc: "View on GitHub",
       date: "2023 - 2024",
     },
   ];

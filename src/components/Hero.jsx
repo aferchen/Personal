@@ -13,6 +13,7 @@ function Hero() {
             I am a junior at Iowa State University majoring in Computer Science who is passionate about web development,
              programing, and continuous learning. I primarily work in Java and Python to create web pages, Android applications,
             games, and other programs. My strengths are in front-end development and data structures. Scroll down to see highlights of my recent work!
+            Hover project logos to see screenshots of them.
           </p>
         </div>
         <div className="md:w-1/2 w-full flex justify-center">
