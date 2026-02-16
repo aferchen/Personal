@@ -3,6 +3,7 @@ import { FaJava } from "react-icons/fa";
 import pygame from "../assets/pygame_logo.svg";
 import python from "../assets/python.png";
 import assembly from "../assets/assembly3.png";
+import C from "../assets/C.png";
 
 export const skills = {
   languages: [
@@ -23,6 +24,13 @@ export const skills = {
       color: "#F7DF1E",
       description: "Web development language",
     },
+    /*
+    {
+      name: "C",
+      logo: C,
+      description: "General-purpose language",
+    },
+    */
     {
       name: "HTML",
       logo: SiHtml5,
