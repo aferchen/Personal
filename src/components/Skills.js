@@ -24,13 +24,11 @@ export const skills = {
       color: "#F7DF1E",
       description: "Web development language",
     },
-    /*
     {
       name: "C",
       logo: C,
       description: "General-purpose language",
     },
-    */
     {
       name: "HTML",
       logo: SiHtml5,
