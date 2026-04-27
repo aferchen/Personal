@@ -6,7 +6,7 @@ import assembly from "../assets/assembly3.png";
 import C from "../assets/C.png";
 import CPP from "../assets/CPP.png";
 import NodeJS from "../assets/NodeJS.svg";
-import Prolog from "../assets/Prolog.png";
+import Prolog from "../assets/prolog.png";
 import Racket from "../assets/Racket.png";
 
 
