@@ -4,6 +4,11 @@ import pygame from "../assets/pygame_logo.svg";
 import python from "../assets/python.png";
 import assembly from "../assets/assembly3.png";
 import C from "../assets/C.png";
+import CPP from "../assets/CPP.png";
+import NodeJS from "../assets/NodeJS.svg";
+import Prolog from "../assets/Prolog.png";
+import Racket from "../assets/Racket.png";
+
 
 export const skills = {
   languages: [
@@ -30,6 +35,11 @@ export const skills = {
       description: "General-purpose language",
     },
     {
+      name: "C++",
+      logo: CPP,
+      description: "High Performance, General-purpose language",
+    },
+    {
       name: "HTML",
       logo: SiHtml5,
       color: "#E34F26",
@@ -52,6 +62,19 @@ export const skills = {
       color:"rgb(55, 126, 127)",
       description: "Typesetting system for documents",
     },
+    {
+      name: "Prolog",
+      logo: Prolog,
+      //color:"rgb(55, 126, 127)",
+      description: "Logic Programming",
+    },
+    {
+      name: "Racket",
+      logo: Racket,
+      //color:"rgb(55, 126, 127)",
+      description: "multi-paradigm programming language",
+    },
+
     
   ],
   databases: [
@@ -66,6 +89,12 @@ export const skills = {
       logo: SiMongodb,
       color:"rgb(96, 160, 83)",
       description: "NoSQL database",
+    },
+    {
+      name: "Node JS",
+      logo: NodeJS,
+      //color:"rgb(96, 160, 83)",
+      description: "Server-side Development",
     },
   ],
   frameworks: [

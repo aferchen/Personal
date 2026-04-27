@@ -29,8 +29,8 @@ function About() {
         </div>
         <div className="md:w-1/2 w-full text-left">
           <p className="text-lg text-gray-700 leading-relaxed font-sans">
-            I'm a junior at Iowa State University majoring in Computer Science
-            with a minor in Data Science. I have a lot of experience with Java,
+            I'm a junior at Iowa State University majoring in Computer Science.
+             I have a lot of experience with Java,
             Python, and HTML/CSS, and I've built a range of individual and
             team-based projects that show my passion for problem-solving and
             continuous learning. <br></br>
@@ -56,7 +56,7 @@ function About() {
         />
         {/* Databases */}
         <div className="flex flex-wrap justify-center gap-6 mb-8">
-          <div className="md:w-1/4">
+          <div className="md:w-2/4">
             <ExperienceSection title="Databases" items={skills.databases} />
           </div>
           {/* Framework + Libraries */}

@@ -9,9 +9,24 @@ import AssemblyH from "../assets/AssemblyHover.png";
 import PastaH from "../assets/PastaHover.jpeg";
 import AdventH from "../assets/AdventHover.png";
 import MessageH from "../assets/MessageReconstructHover.png";
+import Pokemon from "../assets/Pokemon.png";
+import PokeLogo from "../assets/PokeLogo.png";
 
 export default function FeaturedProjects() {
   const projects = [
+    {
+      title: "Pokemon Game",
+      description:
+        "A C/C++ Pokemon game with randomly generated mapping, NPC's, Pokemon generation and much more",
+      imageSrc: PokeLogo,
+      hoverImg: Pokemon,
+      banners: ["C", "C++"],
+      Link: "https://youtu.be/n6EcQ5vpn8Y",
+      LinkDesc: "Watch Demo",
+      date: "Jan 2026 - April 2026",
+      Link2: "https://github.com/aferchen/Advanced-Programming-Techniques-Work",
+      LinkDesc2: "View on GitHub",
+    },
     {
       title: "Cynance",
       description:
