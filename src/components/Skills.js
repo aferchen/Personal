@@ -1,4 +1,4 @@
-import {SiPython, SiJavascript, SiHtml5, SiCss3, SiLatex, SiMysql, SiMongodb, SiNodedotjs, SiExpress, SiReact, SiNodemon, SiTailwindcss, SiGithub, SiGitlab, SiAndroidstudio, SiPostman} from "react-icons/si";
+import {SiPython, SiJavascript, SiHtml5, SiCss3, SiLatex, SiMysql, SiMongodb, SiNodedotjs, SiExpress, SiReact, SiNodemon, SiTailwindcss, SiGithub, SiGitlab, SiAndroidstudio, SiPostman, SiTestinglibrary} from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import pygame from "../assets/pygame_logo.svg";
 import python from "../assets/python.png";
@@ -8,6 +8,12 @@ import CPP from "../assets/CPP.png";
 import NodeJS from "../assets/NodeJS.svg";
 import Prolog from "../assets/prolog.png";
 import Racket from "../assets/Racket.png";
+import Selenium from "../assets/Selenium.png";
+import PITest from "../assets/PITest.png";
+import AFL from "../assets/AFL.png";
+import EvoSuite from "../assets/EvoSuite.png";
+import Jacoco from "../assets/jacoco.webp";
+
 
 
 export const skills = {
@@ -73,6 +79,12 @@ export const skills = {
       logo: Racket,
       //color:"rgb(55, 126, 127)",
       description: "multi-paradigm programming language",
+    },
+    {
+      name: "Android Studio",
+      logo: SiAndroidstudio,
+      color:"rgb(113, 217, 140)",
+      description: "Mobile OS by Google",
     },
 
     
@@ -148,18 +160,55 @@ export const skills = {
       description: "Open Source code repository",
     },
   ],
-  mobile: [
-    {
-      name: "Android Studio",
-      logo: SiAndroidstudio,
-      color:"rgb(113, 217, 140)",
-      description: "Mobile OS by Google",
-    },
+  testing: [
     {
       name: "Postman",
       logo: SiPostman,
       color:"rgb(238,117,71)",
       description: "API testing",
+    },
+    {
+      name: "Selenium",
+      logo: Selenium,
+      description: "Website automated testing",
+    },
+    {
+      name: "EvoSuite",
+      logo: EvoSuite,
+      description: "Test suite generation",
+    },
+    {
+      name: "TSL",
+      description: "Test Specification Language",
+      logo: SiTestinglibrary,
+      color:"rgb(160, 120, 200)",
+    },
+    {
+      name: "CIT",
+      description: "Combinatorial Interaction Testing",
+      logo: SiTestinglibrary,
+      color:"rgb(160, 120, 200)",
+    },
+    {
+      name: "Metamorphic Testing",
+      description: "Testing via metamorphic relations",
+      logo: SiTestinglibrary,
+      color:"rgb(160, 120, 200)",
+    },
+    {
+      name: "PiTest",
+      description: "Mutation Testing",
+      logo: PITest,
+    },
+    {
+      name: "AFL",
+      description: "American Fuzzing Lop",
+      logo: AFL,
+    },
+    {
+      name: "Jacoco",
+      description: "Reports for Java code coverage",
+      logo: Jacoco,
     },
   ],
 };

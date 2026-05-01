@@ -48,36 +48,31 @@ function About() {
         </div>
       </div>
       <div className="">
-        <h2 className="text-4xl font-bold mb-4 pt-16 pb-0">Experience</h2>
-        {/* Programming Languages */}
-        <ExperienceSection
-          title="Programming Languages"
-          items={skills.languages}
-        />
-        {/* Databases */}
-        <div className="flex flex-wrap justify-center gap-6 mb-8">
-          <div className="md:w-2/4">
-            <ExperienceSection title="Databases" items={skills.databases} />
-          </div>
-          {/* Framework + Libraries */}
-          <div className="md:w-7/12">
-            <ExperienceSection
-              title="Frameworks & Libraries"
-              items={skills.frameworks}
-            />
-          </div>
-        </div>
-        {/* Code Share */}
-        <div className="flex flex-wrap justify-center gap-6">
-          <div className="md:w-5/12">
-            <ExperienceSection title="Code Sharing" items={skills.codeShare} />
-          </div>
-          {/* Mobile */}
-          <div className="md:w-5/12">
-            <ExperienceSection title="Mobile" items={skills.mobile} />
-          </div>
-        </div>
-      </div>
+  <h2 className="text-4xl font-bold mb-4 pt-16 pb-0">Experience</h2>
+
+  {/* Programming Languages */}
+  <ExperienceSection title="Programming Languages" items={skills.languages} />
+
+  {/* Code Sharing + Testing */}
+  <div className="flex flex-wrap justify-center gap-6">
+    <div className="md:w-3/12">
+      <ExperienceSection title="Code Sharing" items={skills.codeShare} />
+    </div>
+    <div className="md:w-8/12">
+      <ExperienceSection title="Testing" items={skills.testing} />
+    </div>
+  </div>
+
+  {/* Databases + Frameworks */}
+  <div className="flex flex-wrap justify-center gap-6 mb-8">
+    <div className="md:w-5/12">
+      <ExperienceSection title="Databases" items={skills.databases} />
+    </div>
+    <div className="md:w-6/12">
+      <ExperienceSection title="Frameworks & Libraries" items={skills.frameworks} />
+    </div>
+  </div>
+</div>
     </section>
   );
 }
