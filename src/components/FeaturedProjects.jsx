@@ -11,9 +11,24 @@ import AdventH from "../assets/AdventHover.png";
 import MessageH from "../assets/MessageReconstructHover.png";
 import Pokemon from "../assets/Pokemon.png";
 import PokeLogo from "../assets/PokeLogo.png";
+import AlecsSpot from "../assets/AlecsSpot.png";
+import AlecsSpotData from "../assets/ASdata.png";
 
 export default function FeaturedProjects() {
   const projects = [
+    {
+      title: "Alec's Spot",
+      description:
+        "A parser and API center for full spotify data parsing",
+      imageSrc: AlecsSpot,
+      hoverImg: AlecsSpotData,
+      banners: ["React", "Mongo Atlas", "Render", "API's"],
+      Link: "alecs-spot.vercel.app",
+      LinkDesc: "Go to site",
+      date: "June 2026 - Present",
+      Link2: "https://github.com/aferchen/Alecs-Spot",
+      LinkDesc2: "View on GitHub",
+    },
     {
       title: "Pokemon Game",
       description:

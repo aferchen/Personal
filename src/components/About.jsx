@@ -29,7 +29,7 @@ function About() {
         </div>
         <div className="md:w-1/2 w-full text-left">
           <p className="text-lg text-gray-700 leading-relaxed font-sans">
-            I'm a junior at Iowa State University majoring in Computer Science.
+            I'm a senior at Iowa State University majoring in Computer Science.
              I have a lot of experience with Java,
             Python, and HTML/CSS, and I've built a range of individual and
             team-based projects that show my passion for problem-solving and
@@ -39,11 +39,9 @@ function About() {
             projects, and collaborative challenges like Advent of Code. I enjoy
             exploring new programming languages, algorithms, and data structures
             to deepen my technical understanding. <br></br>
-            I thrive in collaborative
-            environments where ideas are shared freely, and team members support
-            each other's growth. I'm always eager to take on challenges, working
-            independently to develop and refine solutions before seeking
-            feedback or helping others in return.
+            Ive had one summer of internship as a Salesforce Developer coding and testing in apex, flows, 
+            and general Salesforce admin work. Learning pipelines from business requirement meetings, development,
+            QA, UAT, and finally production.
           </p>
         </div>
       </div>

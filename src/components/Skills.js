@@ -13,6 +13,8 @@ import PITest from "../assets/PITest.png";
 import AFL from "../assets/AFL.png";
 import EvoSuite from "../assets/EvoSuite.png";
 import Jacoco from "../assets/jacoco.webp";
+import Salesforce from "../assets/Salesforce.webp";
+import Copado from "../assets/copado.png";
 
 
 
@@ -39,6 +41,11 @@ export const skills = {
       name: "C",
       logo: C,
       description: "General-purpose language",
+    },
+    {
+      name: "Apex",
+      logo: Salesforce,
+      description: "Salesforce Programming",
     },
     {
       name: "C++",
@@ -158,6 +165,11 @@ export const skills = {
       logo: SiGitlab,
       color:"rgb(239, 165, 67)",
       description: "Open Source code repository",
+    },
+    {
+      name: "Copado",
+      logo: Copado,
+      description: "Salesforce digital transformation",
     },
   ],
   testing: [

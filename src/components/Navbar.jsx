@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaAddressBook } from 'react-icons/fa';
 
 function Navbar() {
   return (
@@ -25,7 +25,7 @@ function Navbar() {
           <div className="flex space-x-6 text-gray-700 font-medium">
             <Link className="px-4 py-2 rounded-full hover:bg-black hover:text-white transition" to="/">Home</Link>
             <Link className="px-4 py-2 rounded-full hover:bg-black hover:text-white transition" to="/about">About</Link>
-            <Link className="px-4 py-2 rounded-full hover:bg-black hover:text-white transition" to="/contact">Contact</Link>
+            {/*<Link className="px-4 py-2 rounded-full hover:bg-black hover:text-white transition" to="/contact">Contact</Link>*/}
           </div>
         </nav>
 
@@ -46,6 +46,14 @@ function Navbar() {
             className="hover:text-blue-700"
           >
             <FaGithub />
+          </a>
+          <a
+            href="https://docs.google.com/document/d/1CBlm_j_VhSjKVXARQfhDnXCWnuSlW7IJ/edit?usp=sharing&ouid=117433939695191612247&rtpof=true&sd=true"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-700"
+          >
+            <FaAddressBook />
           </a>
         </div>
       </div>
