@@ -19,11 +19,11 @@ export default function FeaturedProjects() {
     {
       title: "Alec's Spot",
       description:
-        "A parser and API center for full spotify data parsing",
+        "A parser and API center for full spotify data parsing (Takes 30 seconds to boot servers on launch)",
       imageSrc: AlecsSpot,
       hoverImg: AlecsSpotData,
       banners: ["React", "Mongo Atlas", "Render", "API's"],
-      Link: "alecs-spot.vercel.app",
+      Link: "https://alecs-spot.vercel.app",
       LinkDesc: "Go to site",
       date: "June 2026 - Present",
       Link2: "https://github.com/aferchen/Alecs-Spot",
